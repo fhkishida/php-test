@@ -1,0 +1,51 @@
+.formContainer{
+    border: 2px solid #26C242;
+    border-radius: 14px;
+    
+}
+
+.formRow{
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 8px;
+}
+
+.formLabel{
+    flex: 0 0 20%;
+    padding: 8px 0 0 8px;
+    background-color: #E4F7E9;
+}
+
+.formInput{
+    padding: 8px 0 0 8px;
+    flex: 1;
+}
+
+.inputText{
+    width: 96%;
+    border: 2px groove #9A9A9A;
+}
+
+label{
+    font-family: sans-serif;
+}
+
+.buttonSubmit{
+    border-radius: 15px;
+    color: #fff;
+    font-weight: bold;
+    border: 0;
+    background-color: #35C450;
+    padding: 4px 6px 4px 6px;
+}
+
+.buttonSubmit:hover{
+    background-color: #208c34;
+}
+
+.errorMessage{
+    padding-left: 8px;
+    color: red;
+}
